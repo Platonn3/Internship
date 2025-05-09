@@ -27,9 +27,9 @@ class HotelCapacity
             if (checkInDates[i] < checkOutDates[j])
             {
                 guestsCount++;
-                i++;
                 if(guestsCount > maxCapacity)
                     return false;
+                i++;
             }
             else
             {
